@@ -153,7 +153,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
     $(LOCAL_PATH)/system/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     $(LOCAL_PATH)/system/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
-    $(LOCAL_PATH)/system/lib64/hw/fingerprint.vendor.exynos5.so:system/lib64/hw/fingerprint.vendor.exynos5.so
+    $(LOCAL_PATH)/system/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    $(LOCAL_PATH)/system/bin/fingerprintd:system/bin/fingerprintd
+   
 
 # Graphics
 PRODUCT_COPY_FILES += \
