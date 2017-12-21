@@ -133,7 +133,7 @@ PRODUCT_COPY_FILES += \
 
 # CPBoot Daemon
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/sbin/cbd:root/sbin/cbd
+    $(LOCAL_PATH)/sbin/cbd:system/bin/cbd
 
 # ConsumerIR
 PRODUCT_COPY_FILES += \
